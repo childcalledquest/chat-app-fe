@@ -5,4 +5,4 @@ class Socket:
         self.sock = socket.socket()
         self.sock.connect((host,port))
     def get_data(self):
-        pass
+        return self.sock.recv(1024)
