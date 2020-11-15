@@ -3,6 +3,7 @@ import kivy
 from kivy.app import App
 from kivy.uix.label import label
 
+
 class Main(App):
 
     def build(self):
